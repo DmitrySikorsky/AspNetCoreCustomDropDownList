@@ -1,0 +1,19 @@
+﻿@* Copyright © 2017 Dmitry Sikorsky. All rights reserved. *@
+@* Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. *@
+@model AspNetCoreImageResizingService.IndexViewModel
+<h1>ASP.NET Core<br />Custom Drop Down List</h1>
+<form class="form" method="post">
+  <h2>The Standard Select</h2>
+  <div class="form__field field">
+    <select asp-for="StandardColor" asp-items="Model.Colors"></select>
+    <span class="field__validation-message" asp-validation-for="StandardColor"></span>
+  </div>
+  <h2>Our Custom Drop Down List</h2>
+  <div class="form__field field">
+    <drop-down-list asp-for="CustomColor" asp-items="Model.Colors" />
+    <span class="field__validation-message" asp-validation-for="CustomColor"></span>
+  </div>
+  <div class="form__buttons buttons">
+    <button type="submit">Submit selected colors</button>
+  </div>
+</form>
