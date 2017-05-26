@@ -5,24 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\css\app.css" />
-    <Content Include="wwwroot\css\default.css" />
-    <Content Include="wwwroot\css\drop_down_list.css" />
-    <Content Include="wwwroot\css\style.css" />
-    <Content Include="wwwroot\css\styles - Copy.css">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="wwwroot\css\styles.css" />
-    <Content Include="wwwroot\js\app.js" />
-    <Content Include="wwwroot\js\drop_down_list - Copy.js">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="wwwroot\js\drop_down_list.js">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="CoreCompat.System.Drawing" Version="1.0.0-beta006" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
