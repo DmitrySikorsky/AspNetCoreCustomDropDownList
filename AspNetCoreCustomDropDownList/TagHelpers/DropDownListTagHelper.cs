@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace AspNetCoreImageResizingService
+namespace AspNetCoreCustomDropDownList
 {
   [HtmlTargetElement("drop-down-list", Attributes = ForAttributeName + "," + ItemsAttributeName)]
   public class DropDownListTagHelper : TagHelper

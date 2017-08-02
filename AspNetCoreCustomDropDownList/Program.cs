@@ -4,7 +4,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace AspNetCoreImageResizingService
+namespace AspNetCoreCustomDropDownList
 {
   public class Program
   {
