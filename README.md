@@ -8,6 +8,8 @@ The result looks like this:
 ![Custom drop down list](http://sikorsky.pro/images/github/aspnetcore-custom-drop-down-list/result.png)
 *Custom drop down list*
 
+Updated to use .NET Core 2.0.
+
 ## Using the Application
 
 1. Run the application.
