@@ -1,7 +1,7 @@
 # ASP.NET Core Custom Drop Down List
 This is a demo web application for the
-ì[ASP.NET Core Custom Drop Down List](https://medium.com/@dmitry.a.sikorsky/asp-net-core-custom-drop-down-list-86bcd60f2cf2)î
-post on the [Dmitry Sikorskyís blog](https://medium.com/@dmitry.a.sikorsky). It demonstrates how to build custom drop down list
+‚Äú[ASP.NET Core Custom Drop Down List](https://medium.com/@dmitrysikorsky/asp-net-core-custom-drop-down-list-86bcd60f2cf2)‚Äù
+post on the [Dmitry Sikorsky‚Äôs blog](https://medium.com/@dmitrysikorsky). It demonstrates how to build custom drop down list
 on ASP.NET Core using tag helper.
 
 The result looks like this:
